@@ -1,0 +1,26 @@
+{
+    "name": "pure-sheet",
+    "displayName": "Pure Sheet",
+    "description": "Eye-friendly light color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "license": "Apache-2.0",
+    "author": {
+        "name": "ctjdr"
+    },
+    "publisher": "ctjdr",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pure Sheet",
+                "uiTheme": "vs",
+                "path": "./themes/pure-sheet-color-theme.json"
+            }
+        ]
+    }
+}

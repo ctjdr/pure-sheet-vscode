@@ -1,0 +1,27 @@
+# The Demo site 
+
+This is a demo site with _some_ markup but not **all**.
+
+
+## Build
+
+    $ cd pure-sheet-vscode
+    $ npm run
+
+This will
+* cd into a directory
+* run a build script that does actually not exist
+
+## License
+
+### Apache 2
+
+Apache License
+> Version 2.0, January 2004
+> [The license](http://www.apache.org/licenses/).
+> 
+> 1. Definitions.
+> 
+> "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+> "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+> ...
