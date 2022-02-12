@@ -53,8 +53,7 @@
         }
     },
     "colors": {
-        // "editor.background": "#f1f1f1",
-         "editor.background": "#F3F3F3",
+        "editor.background": "#F3F3F3",
         "editor.foreground": "#000000",
         "terminal.ansiBlue": "#3465a4",
         "terminal.ansiBrightBlue": "#729fcf",
