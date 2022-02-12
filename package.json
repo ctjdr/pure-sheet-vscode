@@ -3,7 +3,7 @@
     "displayName": "Pure Sheet",
     "description": "Eye-friendly light color theme inspired by the Clean Sheet Eclipse theme",
     "license": "Apache-2.0",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.47.0"
     },
