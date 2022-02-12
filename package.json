@@ -1,16 +1,25 @@
 {
     "name": "pure-sheet",
     "displayName": "Pure Sheet",
-    "description": "Eye-friendly light color theme",
+    "description": "Eye-friendly light color theme inspired by the Clean Sheet Eclipse theme",
+    "license": "Apache-2.0",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.47.0"
     },
-    "license": "Apache-2.0",
     "author": {
         "name": "ctjdr"
     },
     "publisher": "ctjdr",
+    "homepage": "https://github.com/ctjdr/pure-sheet-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ctjdr/pure-sheet-vscode.git",
+        "directory": ""
+    },
+    "bugs": {
+        "url": "https://github.com/ctjdr/pure-sheet-vscode/issues"
+    },
     "categories": [
         "Themes"
     ],
