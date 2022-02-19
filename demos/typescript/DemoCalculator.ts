@@ -2,6 +2,7 @@ export class Calculator {
     private current = 0;
     private memory = 0;
     private operator: string;
+    
     protected processDigit(digit: string, currentValue: number) {
       if (digit >= "0" && digit <= "9") {
         return currentValue * 10 + (digit.charCodeAt(0) - "0".charCodeAt(0));

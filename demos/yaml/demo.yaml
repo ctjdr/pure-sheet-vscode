@@ -12,9 +12,12 @@ members:
   - Radiation resistance
   - Turning tiny
   - Radiation blast
-- name: Madame Uppercut
+- name: "Madame Uppercut"
   age: 39
-  secretIdentity: Jane Wilson
+  secretIdentity: 
+    Longer string
+    that spans
+    multiple lines
   powers:
   - Million tonne punch
   - Damage resistance
@@ -22,10 +25,5 @@ members:
 - name: Eternal Flame
   age: 1000000
   secretIdentity: Unknown
-  powers:
-  - Immortality
-  - Heat Immunity
-  - Inferno
-  - Teleportation
-  - Interdimensional travel
+  powers: ["Immortality", "Heat Immunity"]
   

@@ -1,9 +1,7 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <shiporder orderid="889923"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="shiporder.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <orderperson>John Smith</orderperson>
   <shipto>
     <name>Ola Nordmann</name>
@@ -17,7 +15,10 @@ xsi:noNamespaceSchemaLocation="shiporder.xsd">
     <country>Norway</country>
   </shipto>
   <item>
-    <!-- With comments -->
+    <!-- 
+        Multiline
+        block comment 
+    -->
     <title>Empire Burlesque</title>
     <note>Special Edition</note>
     <quantity>1</quantity>
@@ -27,9 +28,7 @@ xsi:noNamespaceSchemaLocation="shiporder.xsd">
   </item>
   <item>
     <title>Hide your heart</title>
-    <!-- 
-        <quantity>1</quantity>
-        <price>9.90</price
-     -->
+    <!-- <quantity>1</quantity> -->
+        <price>9.90</price>
   </item>
 </shiporder> 

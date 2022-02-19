@@ -17,7 +17,10 @@ request.onload = function() {
 
 request.send();
 
-// sets up the app logic, declares required variables, contains all the other functions
+/**
+ * 
+ * @param {*} products  Products to initialize.
+ */
 function initialize(products) {
   // grab the UI elements that we need to manipulate
   const category = document.querySelector('#category');

@@ -41,6 +41,10 @@
             "foreground": "#474747",
             "fontStyle": "bold"
         },
+        "function.declaration": {
+            "foreground": "#474747",
+            "fontStyle": "bold"
+        },
         "property": {
             "foreground": "#063FDC"
         },
@@ -686,15 +690,6 @@
     "tokenColors": [
         {
             "scope": [
-                "comment"
-            ],
-            "settings": {
-                "foreground": "#5F8FBF",
-                "fontStyle": ""
-            }
-        },
-        {
-            "scope": [
                 "string"
             ],
             "settings": {
@@ -818,15 +813,16 @@
                 "fontStyle": ""
             }
         },
-        // {
-        // 	"scope": [
-        // 		"entity.name.function"
-        // 	],
-        // 	"settings": {
-        // 		"foreground": "#000000",
-        // 		"fontStyle": "bold"
-        // 	}
-        // },
+        {
+        	"scope": [
+                //TypeScript keyword: constructor
+        		"storage.type.ts"
+        	],
+        	"settings": {
+        		"foreground": "#474747",
+        		"fontStyle": "bold"
+        	}
+        },
         {
             "scope": [
                 "meta.preprocessor"
@@ -898,15 +894,20 @@
         {
             "scope": [
                 "entity.name.tag",
-                "support.type.property-name"
+                // JSON property name
+                "support.type.property-name",
+                //key in .properties files
+                "keyword.other.definition.ini"
             ],
             "settings": {
                 // "foreground": "#3a3aB0",
-                // "foreground": "#C43A1A",
+                // "foreground": "#6a3e3e",
+                // "foreground": "#474747",
+                "foreground": "#C43A1A",
                 // "foreground": "#0749BC",
                 // "foreground": "#191970",
-                "foreground": "#C43A1A",
-                "fontStyle": ""
+                // "foreground": "#000000",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1034,30 +1035,41 @@
                 "fontStyle": "bold"
             }
         },
+        
+        // {
+        //     "scope": "punctuation.definition.comment",
+        //     "settings": {
+        //         "foreground": "#00AA00"
+        //     }
+        // },
+        
         {
-            "scope": "comment",
-            "settings": {
-                "foreground": "#00AA00"
-            }
-        },
-        {
-            "scope": "punctuation.definition.comment",
-            "settings": {
-                "foreground": "#00AA00"
-            }
-        },
-        {
-            "scope": "comment",
+            "scope": [
+                "comment",
+                "comment.block.xml"
+            ],
             "settings": {
                 "foreground": "#878787"
             }
         },
         {
-            "scope": "comment.block.javadoc",
+            "scope": "comment.block",
             "settings": {
                 "foreground": "#4C770F"
             }
         },
+        // {
+        //     "scope": "comment.block.javadoc",
+        //     "settings": {
+        //         "foreground": "#4C770F"
+        //     }
+        // },
+        // {
+        //     "scope": "comment.block.javadoc.java",
+        //     "settings": {
+        //         "foreground": "#4C770F"
+        //     }
+        // },
         {
             "scope": "string",
             "settings": {
@@ -1110,13 +1122,6 @@
             }
         },
         {
-            "scope": "punctuation",
-            "settings": {
-                // "foreground": "#000000"
-                "foreground": "#3a3a3a"
-            }
-        },
-        {
             "scope": "punctuation.definition.annotation",
             "settings": {
                 "foreground": "#707070"
@@ -1151,6 +1156,16 @@
             "settings": {
                 // "foreground": "#3a3a3a"
                 "foreground": "#000000"
+            }
+        },
+        {
+            "scope": [
+                "text.xml",
+                //value in .properties file
+                "source.ini"
+            ],
+            "settings": {
+                "foreground": "#0749BC"
             }
         },
         {
