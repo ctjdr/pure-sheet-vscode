@@ -897,7 +897,8 @@
                 // JSON property name
                 "support.type.property-name",
                 //key in .properties files
-                "keyword.other.definition.ini"
+                "keyword.other.definition.ini",
+                "support.identifier.java-properties"
             ],
             "settings": {
                 // "foreground": "#3a3aB0",
