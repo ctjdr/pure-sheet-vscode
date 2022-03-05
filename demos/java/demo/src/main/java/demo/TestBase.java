@@ -8,7 +8,7 @@ public abstract class TestBase {
     public abstract String something();
 
     public static final class Logger {
-        public void info(String log) {}
+        public void info(String log) {
         }
     }
 }

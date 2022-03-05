@@ -1,9 +1,8 @@
 # Change Log
 
-All notable changes to the "pure-sheet" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.6
 
-## [Unreleased]
-
-- Initial release
+* Make general IDE font color darker to improve contrast
+* Add bottom border to active tab
+* Give '<' and '>' of XML elements the same style as the element name

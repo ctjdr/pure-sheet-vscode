@@ -264,7 +264,7 @@
         //"extensionIcon.starForeground": "#df6100",
         //"extensionIcon.verifiedForeground": "#006ab1",
         //"focusBorder": "#0090f1",
-        //"foreground": "#616161",
+        "foreground": "#303030",
         //"gitDecoration.addedResourceForeground": "#587c0c",
         //"gitDecoration.conflictingResourceForeground": "#ad0707",
         //"gitDecoration.deletedResourceForeground": "#ad0707",
@@ -665,7 +665,7 @@
         //"statusBar.border": null,
         //"statusBar.debuggingBorder": null,
         //"statusBar.noFolderBorder": null,
-        //"tab.activeBorder": null,
+        "tab.activeBorder": "#4C770F",
         //"tab.activeBorderTop": null,
         //"tab.hoverBackground": null,
         //"tab.hoverBorder": null,
@@ -893,7 +893,10 @@
         },
         {
             "scope": [
+                // eg. XML element name
                 "entity.name.tag",
+                // '<' and '>' of an XML element
+                "punctuation.definition.tag",
                 // JSON property name
                 "support.type.property-name",
                 //key in .properties files
@@ -1026,7 +1029,7 @@
         },
         {
             "scope": [
-                "entity.name.section",
+                "entity.name.section"
                 // "entity.name.section.markdown",
                 // "heading.2.markdown",
                 // "markup.heading.markdown"

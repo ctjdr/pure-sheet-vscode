@@ -1,3 +1,6 @@
+/**
+ * An example _calculator_.
+ */
 export class Calculator {
     private current = 0;
     private memory = 0;
