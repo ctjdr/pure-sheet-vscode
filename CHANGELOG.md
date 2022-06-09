@@ -1,6 +1,11 @@
 # Change Log
 
 
+## 0.0.7
+
+* Provide font configuration in README
+* Update product icon
+
 ## 0.0.6
 
 * Make general IDE font color darker to improve contrast
