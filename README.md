@@ -24,14 +24,14 @@ Here are the font settings in VS Code that worked best for me on Linux and Windo
 This theme should work with all languages but is especially tested with:
 
 - Java
-- XML
-- JSON
-- YAML
-- Markdown
-- Gherkin/Cucumber features
-- AsciiDoc
 - JavaScript
 - TypeScript
+- Markdown
+- JSON
+- YAML
+- XML
+- Gherkin/Cucumber features
+- AsciiDoc
 
 To get proper results you need to install the accoding language support extensions.
 Otherwise semantic highlighting will not work and you won't get a result similar to Clean Sheet on Eclipse.
