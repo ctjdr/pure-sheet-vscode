@@ -730,6 +730,8 @@
                 "storage.type.function",
                 "storage.type.union",
                 "storage.type.js",
+                "storage.type.ts",
+                "storage.type.type.ts",
                 "storage.type.interface",
                 "storage.type.impl",
                 "storage.type.trait",
@@ -772,8 +774,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#800555",
-                "fontStyle": ""
+                "foreground": "#000000"
             }
         },
         {
@@ -812,16 +813,6 @@
                 "foreground": "#333333",
                 "fontStyle": ""
             }
-        },
-        {
-        	"scope": [
-                //TypeScript keyword: constructor
-        		"storage.type.ts"
-        	],
-        	"settings": {
-        		"foreground": "#474747",
-        		"fontStyle": "bold"
-        	}
         },
         {
             "scope": [

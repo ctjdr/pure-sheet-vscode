@@ -21,7 +21,7 @@ export class Calculator {
       left: number,
       right: number
     ): number {
-      switch (this.operator) {
+      switch (operator) {
         case "+":
           return left + right;
         case "-":
@@ -31,6 +31,7 @@ export class Calculator {
         case "/":
           return left / right;
       }
+      return 0;
     }
     private evaluate() {
       if (this.operator) {

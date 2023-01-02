@@ -1,22 +1,9 @@
 import { Calculator } from "./DemoCalculator";
+
+type Digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "A" | "B" | "C" | "D" | "E" | "F";
+
 class ProgrammerCalculator extends Calculator {
-  static digits = [
-    "0",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
+  static digits: Digit[] = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F",
   ];
   constructor(public base: number) {
     super();
@@ -25,7 +12,7 @@ class ProgrammerCalculator extends Calculator {
       throw new Error(`base has to be within 0 to ${maxBase} inclusive.`);
     }
   }
-  protected processDigit(digit: string, currentValue: number) {
+  protected processDigit(digit: Digit, currentValue: number) {
     if (ProgrammerCalculator.digits.indexOf(digit) >= 0) {
       return (
         currentValue * this.base + ProgrammerCalculator.digits.indexOf(digit)
