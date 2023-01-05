@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.9
+
+* [tbd]
+
 ## 0.0.8
 
 * Use common keyword color for TypeScript 'type' keyword
