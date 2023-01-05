@@ -32,5 +32,11 @@
                 "path": "./themes/pure-sheet-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^2.16.0"
+    },
+    "scripts": {
+        "deploy": "vsce publish"
     }
 }
