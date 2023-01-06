@@ -2,12 +2,12 @@
 
 ## 0.0.9
 
-* Fix colorization of variables (#2)
+* Fix colorization of variables ([#2](https://github.com/ctjdr/pure-sheet-vscode/issues/2))
 
 ## 0.0.8
 
-* Use common keyword color for TypeScript 'type' keyword (#1)
-* Use same color for TypeScript type name as for class names (#1)
+* Use common keyword color for TypeScript 'type' keyword ([#1](https://github.com/ctjdr/pure-sheet-vscode/issues/1))
+* Use same color for TypeScript type name as for class names ([#1](https://github.com/ctjdr/pure-sheet-vscode/issues/1))
 
 ## 0.0.7
 
