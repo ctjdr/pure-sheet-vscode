@@ -1,10 +1,14 @@
 # Pure Sheet
 
-An eye-friendly light VS Code color scheme based on the [Clean Sheet](https://fappel.github.io/xiliary/clean-sheet.html) theme.
+An eye-friendly light Visual Studio Code color scheme based on the [Clean Sheet](https://fappel.github.io/xiliary/clean-sheet.html) theme.
 
 
 ![Pure Sheet Screenshot](doc/images/pure-sheet-01.png)
 
+
+## Installation
+
+Directly install the "Pure Sheet" extension from Visual Studio Code, or [download from Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ctjdr.pure-sheet).
 
 ## Font
 
