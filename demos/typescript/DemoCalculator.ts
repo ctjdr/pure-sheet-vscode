@@ -70,7 +70,10 @@ export class Calculator {
     }
   }
   export function test(c: Calculator, input: string) {
-    for (let i = 0; i < input.length; i++) {
+    
+    const inputLength = input.length;
+
+    for (let i = 0; i < inputLength; i++) {
       c.handleChar(input[i]);
     }
     console.log(`result of '${input}' is '${c.getResult()}'`);

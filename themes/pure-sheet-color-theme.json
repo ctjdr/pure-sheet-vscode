@@ -52,7 +52,7 @@
             "italic": true,
             "bold": true
         },
-        "variable.declaration": {
+        "variable": {
             "foreground": "#6A3E3E"
         }
     },

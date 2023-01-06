@@ -2,12 +2,12 @@
 
 ## 0.0.9
 
-* [tbd]
+* Fix colorization of variables (#2)
 
 ## 0.0.8
 
-* Use common keyword color for TypeScript 'type' keyword
-* Use same color for TypeScript type name as for class names
+* Use common keyword color for TypeScript 'type' keyword (#1)
+* Use same color for TypeScript type name as for class names (#1)
 
 ## 0.0.7
 
