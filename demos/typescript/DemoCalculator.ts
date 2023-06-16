@@ -69,8 +69,17 @@ export class Calculator {
       return this.memory;
     }
   }
+
+  class  NamedType {
+    name: string;
+  }
+
   export function test(c: Calculator, input: string) {
     
+    if (c instanceof NamedType) {
+        console.log(`Testing with calculator type '${c.name || typeof c}'`);
+    }
+
     const inputLength = input.length;
 
     for (let i = 0; i < inputLength; i++) {

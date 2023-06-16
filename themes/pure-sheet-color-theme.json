@@ -736,6 +736,7 @@
                 "storage.type.impl",
                 "storage.type.trait",
                 "storage.modifier",
+                "keyword.operator.expression",
                 "keyword.operator.new",
                 "keyword.operator.delete",
                 "keyword.operator.word",
