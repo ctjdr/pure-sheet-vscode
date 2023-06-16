@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.10
+
+* Fix colorization of `instanceof` and `typeof` keyworkds in TypeScript ([#3](https://github.com/ctjdr/pure-sheet-vscode/issues/3))
+
 ## 0.0.9
 
 * Fix colorization of variables ([#2](https://github.com/ctjdr/pure-sheet-vscode/issues/2))
