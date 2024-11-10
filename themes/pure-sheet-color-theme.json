@@ -934,6 +934,7 @@
         {
             "scope": [
                 "entity.name.section",
+                "markup.heading",
                 "punctuation.definition.heading"
             ],
             "settings": {
