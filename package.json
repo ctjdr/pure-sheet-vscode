@@ -34,7 +34,7 @@
         ]
     },
     "devDependencies": {
-        "@vscode/vsce": "^2.16.0"
+        "@vscode/vsce": "^3.2.1"
     },
     "scripts": {
         "deploy": "vsce publish"
