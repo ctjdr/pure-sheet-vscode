@@ -1,8 +1,12 @@
 # Change Log
 
+## 0.0.11 
+
+* Improve support for markup headings. For example, headings in AsciiDoc files are now displayed the same way as markdown headings.
+
 ## 0.0.10
 
-* Fix colorization of `instanceof` and `typeof` keyworkds in TypeScript ([#3](https://github.com/ctjdr/pure-sheet-vscode/issues/3))
+* Fix colorization of `instanceof` and `typeof` keywords in TypeScript ([#3](https://github.com/ctjdr/pure-sheet-vscode/issues/3))
 
 ## 0.0.9
 
