@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.12
+
+* Improve contrast of active editor tab when using VS Code "Modern UI"
+
 ## 0.0.11 
 
 * Improve support for markup headings. For example, headings in AsciiDoc files are now displayed the same way as markdown headings.
