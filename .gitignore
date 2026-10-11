@@ -1,4 +1,4 @@
 node_modules
 *.vsix
-/.vscode/settings.json
+**/.vscode/settings.json
 /demos/java/demo/target
